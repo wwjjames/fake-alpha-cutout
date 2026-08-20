@@ -1,0 +1,11 @@
+{
+  "split": "test",
+  "checkpoint": "matting_models/stage_b_alpha_v1/best.pt",
+  "device": "mps",
+  "test_pairs": 756,
+  "full_alpha_mae": 0.011701291846480989,
+  "boundary_mae": 0.041449842905829815,
+  "soft_alpha_mae": 0.02443907611147419,
+  "boundary_pixels": 42535056,
+  "soft_alpha_pixels": 89207724
+}

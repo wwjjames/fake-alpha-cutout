@@ -1,0 +1,16 @@
+{
+  "repository": "wwjjames/fake-alpha-cutout",
+  "release_tag": "v0.1.0",
+  "models": {
+    "stage_a": {
+      "asset": "stage_a_gridnet_baseline.pth",
+      "destination": "pseudo_transparency_detection/models/400_3depth(baseline).pth",
+      "sha256": "add6dba5e519a92cc5503b208e9c6d5d3ca2170d1554ee8d7cc6684b1fd6c33a"
+    },
+    "stage_b": {
+      "asset": "stage_b_alpha_v1_best.pt",
+      "destination": "matting_models/stage_b_alpha_v1/best.pt",
+      "sha256": "e0f9024edeabd885ae09f2cb7dca663fbfb581592c320f99cc639a0229fee9e0"
+    }
+  }
+}

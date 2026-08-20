@@ -1,0 +1,26 @@
+# Python and local app state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.streamlit/secrets.toml
+
+# Private training data and generated evaluation artifacts
+training_assets/
+test_assets/
+matting_models/
+matting_reports/*
+!matting_reports/test_metrics.json
+
+# Checkpoints are distributed through GitHub Releases, not Git.
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Legacy Stage A training assets and generated reports
+pseudo_transparency_detection/dataset/
+pseudo_transparency_detection/models/
+pseudo_transparency_detection/reports/
+pseudo_transparency_detection/__pycache__/
