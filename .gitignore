@@ -24,3 +24,13 @@ pseudo_transparency_detection/dataset/
 pseudo_transparency_detection/models/
 pseudo_transparency_detection/reports/
 pseudo_transparency_detection/__pycache__/
+
+# Internal planning, local research references, and legacy notebook outputs
+HARD_CASE_ALPHA_GENERATION_COMMANDS.md
+IMAGE_DATA_GENERATION_GUIDE.md
+IMAGE_GENERATION_COMMANDS.md
+NEXT_PHASE_CONTEXT_AND_PLAN.md
+README_MVP.md
+pseudo_transparency_detection/.ipynb_checkpoints/
+pseudo_transparency_detection/notebook/
+pseudo_transparency_detection/Detection of Pseudo-Transparency in Gen-AI Images.pdf
