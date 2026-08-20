@@ -73,7 +73,7 @@ streamlit run app.py
 
 - **公开**：代码、MIT 许可证、模型权重（通过 GitHub Release）。
 - **不公开**：训练前景、合成数据集、原始测试资产及其派生评估图片。
-- 公开 Release 应包含 `stage_a_gridnet_baseline.pth` 和 `stage_b_alpha_v1_best.pt`，版本号应为 `v0.1.0`。
+- 公开 Release 应包含 `400_3depth.baseline.pth` 和 `stage_b_alpha_v1_best.pt`，版本号应为 `v0.1.0`。
 
 ## License
 

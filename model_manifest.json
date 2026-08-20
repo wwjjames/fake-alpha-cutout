@@ -3,7 +3,7 @@
   "release_tag": "v0.1.0",
   "models": {
     "stage_a": {
-      "asset": "stage_a_gridnet_baseline.pth",
+      "asset": "400_3depth.baseline.pth",
       "destination": "pseudo_transparency_detection/models/400_3depth(baseline).pth",
       "sha256": "add6dba5e519a92cc5503b208e9c6d5d3ca2170d1554ee8d7cc6684b1fd6c33a"
     },
